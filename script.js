@@ -9,12 +9,13 @@ function toggleMode() {
 
   //substituir imagem
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/Avatar_Miguel_Light-Mode_circular.png");
+    img.setAttribute("src", "./assets/Avatar_Miguel_Light-Mode_circular.jpeg");
     img.setAttribute(
       "alt",
-      "imagem de miguel tirando foto no espelho de camisa branca "
+      "imagem de miguel tirando foto no espelho de camisa branca ",
     );
   } else {
-    img.setAttribute("src", "./assets/Avatar_Miguel_Dark-Mode_circular.png");
+    img.setAttribute("src", "./assets/Avatar_Miguel_Dark-Mode_circular.jpeg");
+    img.setAttribute("alt", "Foto profissional de Miguel com camisa social");
   }
 }
